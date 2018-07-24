@@ -1,0 +1,23 @@
+header{
+    display:block;
+}
+
+#search{
+    display:block;
+}
+
+footer{
+    display:block;
+}
+
+.l{
+    display:inline-block;
+    position: relative;
+    float: left;
+}
+
+.r{
+    display:inline-block;
+    position: relative;
+    float: right;
+}

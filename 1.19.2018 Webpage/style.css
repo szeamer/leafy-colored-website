@@ -1,0 +1,118 @@
+.img-profile{
+  width:100%;
+  height:auto;
+  border:10px  rgba(44, 54, 63, 1) solid;
+}
+
+body{
+  padding-left:70px;
+  background-color:rgba(44, 54, 63, 1);
+}
+
+.container-fluid{
+  padding:70px;
+
+  margin-bottom:70px;
+}
+
+.bg-1{
+  background-color:rgba(242, 245, 234, 1);
+}
+
+.bg-2{
+  background-color:rgba(150, 178, 83, 1);;
+}
+
+.bg-3{
+  background-color: rgba(147, 183, 190, 1);
+}
+
+h1, h2, h3{
+  color:rgba(231, 90, 124, 1);
+  text-transform: uppercase;
+}
+
+p{
+  padding-left:70px;
+  padding-right:70px;
+}
+
+.my-photo{
+  display:inline-block;
+  width:100%;
+  height:auto;
+}
+
+.content{
+  background-color:rgba(44, 54, 63, 1);
+  width:100%;
+  padding:70px;
+}
+
+.side-nav{
+  text-align: center;
+  position:fixed;
+  display:block;
+  bottom:50%;
+  width:15%;
+  background-color:rgba(242, 245, 234, 1);
+}
+
+.col-sm-10, .col-sm-2{
+  padding-right:35px;
+  padding-left:35px;
+}
+
+a{
+  color:rgba(44, 54, 63, 1);;
+  font-style: bold;
+  display:inline-block;
+  padding:15px;
+}
+
+a:hover{
+  color:rgba(231, 90, 124, 1);
+  text-decoration-line: none;
+}
+
+.dark-hr{
+  border-color: rgba(44, 54, 63, 1);
+}
+
+li{
+  text-align: left;
+}
+
+#bootstrap-overrides .col-sm-4{
+  margin:0;
+  padding:0;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  padding:1px;
+  opacity: 0;
+  transition: 1s ease;
+  background-color:gray;
+}
+
+.col-sm-4:hover .overlay{
+  opacity: 1;
+}
+
+
+.text {
+  background-color: rgba(79, 87, 107, 0.5);
+  height:100%;
+  width:100%;
+  padding:25%;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}

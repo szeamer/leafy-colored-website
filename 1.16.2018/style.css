@@ -1,0 +1,20 @@
+body{
+    background-color:rgba(44, 54, 63, 1);
+}
+#page{
+    background-color:rgba(44, 54, 63, 1);
+    color:rgba(231, 90, 124, 1);
+
+    height:100%;
+}
+
+p{
+    color:rgba(44, 54, 63, 1);
+}
+.card{
+    margin:5%;
+    padding:5%;
+    background-color:rgba(242, 245, 234, 1);
+
+    text-align:center;
+}

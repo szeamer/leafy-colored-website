@@ -1,0 +1,14 @@
+body{
+    background-color:darkslategrey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p, h1, h2, a{
+    color:lightpink;
+    background-blend-mode:color-burn;
+}
+
+p{
+    font-weight:100;
+    text-transform:uppercase;
+}
